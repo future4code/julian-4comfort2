@@ -4,7 +4,7 @@
 }
 
 body {
-    
+    font-family: sans-serif;    
 
 }
 
@@ -39,3 +39,36 @@ body {
     color: #101010;
     background-color: #dae5e8;
 }
+
+footer {
+    background-color: #101010;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+section#social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media > a {
+    text-decoration: none;
+    color: #dae5e8;
+}
+
+footer > p {
+    padding-top: 5vh;
+    margin-right: 2vw;
+    color:  #dae5e8;
+    font-size: 0.5em;
+    text-align: right;
+}
+
+#cartoes {
+    color: #dae5e8;
+    text-align: left;
+    margin-left: 5vw;
+    align-content: flex-end;
+}
+
+
