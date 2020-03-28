@@ -2,3 +2,73 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: sans-serif;    
+
+}
+
+#promocao {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-align: center;
+    background-color: #dae5e8;
+}
+
+#promocao > p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#promocao > input {
+    color: #dae5e8;
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+#promocao > button {
+    color: #dae5e8;
+    background-color: #101010;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1em;
+    outline: none;
+}
+
+#promocao > button:hover {
+    color: #101010;
+    background-color: #dae5e8;
+}
+
+footer {
+    background-color: #101010;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+section#social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media > a {
+    text-decoration: none;
+    color: #dae5e8;
+}
+
+footer > p {
+    padding-top: 5vh;
+    margin-right: 2vw;
+    color:  #dae5e8;
+    font-size: 0.5em;
+    text-align: right;
+}
+
+#cartoes {
+    color: #dae5e8;
+    text-align: left;
+    margin-left: 5vw;
+    align-content: flex-end;
+}
+
+
