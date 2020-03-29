@@ -4,51 +4,45 @@
     font-family: sans-serif;
 }
 
-#promocao {
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    text-align: center;
-    background-color: #dae5e8;
-}
-
-input {
-    outline:none;
-    box-shadow: 3px 3px;
-}
-
-input:value {
-    color: green;
-}
-
-#promocao > p {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-#promocao > input {
-    color: #101010;
-    font-size: 1em;
-    padding: 16px 30px;
-    border: none;
-}
-
-#promocao > button {
-    color:white;
-    font-weight: bold;
+footer {
     background-color: #101010;
-    padding: 15px 30px;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
     text-align: center;
-    font-size: 1em;
-    outline: none;
-    border: none;
-    box-shadow: 1px 1px #dae5e8, 4px 4px black;
+}
+section#social-media {
+    display: flex;
+    justify-content: space-around;
 }
 
-#promocao > button:hover {
-    font-weight: bold;
-    color: #101010;
-    background-color: white;
-    border: none;
+#social-media > a {
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+     
+    box-shadow: 2px 2px white;
+}
+
+
+#cartoes {
+    color: white;
+    text-align: left;
+    margin-left: 5vw;
+    align-content: flex-end;
+    padding-bottom: 5vh;
+    padding-top: 10vh;
+}
+
+#cartoes > i {
+    size: large;
+}
+
+footer > p {
+    padding-top: 5vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    color:  white;
+    font-size: 0.7em;
+    text-align: right;
+    border-top: 1px solid white;
 }
