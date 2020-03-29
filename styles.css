@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 main {
-    background-color: none;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-self: center;
     align-items: center;
     justify-content: center;
 }
@@ -17,6 +17,33 @@ section {
     height: 100vh;
     align-items: center;
     justify-content: center;   
+}
+form{
+    border: solid 1px rgb(189, 184, 184);
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #dae5e8;
+    width: 41vw;
+    margin: 0 auto;
+    padding: 20px; 
+}
+form>p {
+    padding: 5px;
+}
+.enviar {
+    display: block;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin: 0 auto;  
+}
+input {
+    width: 40vw;
+    padding: 7px;
+}
+textarea {
+    width: 40vw;
+    height: 30vh;
 }
 #quem-somos{
     height: 60vh;  
@@ -31,7 +58,7 @@ section {
 }
 #quem-somos> h1 {
     color: #2e3237;
-    font-size: ;
+    font-size: 50px;
 }   
 #quem-somos>p {
     color: #48453c;
@@ -59,11 +86,21 @@ section {
     border: black 3px solid;
 }
 #contato {
-    max-width: 100vw;
-   
+
+    flex-direction: column;
+    max-width: 100vw; 
+    height: 100vh;
+}
+#contato>h1 {
+    display: flex;
+    align-self: flex-start;
+    font-size: 60px;
+    padding: 20px 60px;
 }
 #nosso-time {
-    max-width: 100vw;
+
+    width: 80vw;
    
 }
+
 
