@@ -2,3 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    
+
+}
+
+#promocao {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-align: center;
+    background-color: #dae5e8;
+}
+
+#promocao > p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#promocao > input {
+    color: #dae5e8;
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+#promocao > button {
+    color: #dae5e8;
+    background-color: #101010;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1em;
+    outline: none;
+}
+
+#promocao > button:hover {
+    color: #101010;
+    background-color: #dae5e8;
+}
