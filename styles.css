@@ -1,11 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    
-
+    font-family: sans-serif;
 }
 
 #promocao {
@@ -15,27 +11,44 @@ body {
     background-color: #dae5e8;
 }
 
+input {
+    outline:none;
+    box-shadow: 3px 3px;
+}
+
+input:value {
+    color: green;
+}
+
 #promocao > p {
     font-size: 1.5em;
     font-weight: bold;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 #promocao > input {
-    color: #dae5e8;
+    color: #101010;
     font-size: 1em;
-    padding: 15px 30px;
+    padding: 16px 30px;
+    border: none;
 }
 
 #promocao > button {
-    color: #dae5e8;
+    color:white;
+    font-weight: bold;
     background-color: #101010;
     padding: 15px 30px;
     text-align: center;
     font-size: 1em;
     outline: none;
+    border: none;
+    box-shadow: 1px 1px #dae5e8, 4px 4px black;
 }
 
 #promocao > button:hover {
+    font-weight: bold;
     color: #101010;
-    background-color: #dae5e8;
+    background-color: white;
+    border: none;
 }
