@@ -50,6 +50,23 @@ header a{
 header a:hover{
     animation: pular 1s;
 }
+
+@media (max-width:375px){
+    
+    header{
+        width: 100vw;
+        height: 15vh;
+        flex-direction: column;
+    }
+
+
+    img{
+        position: absolute;
+        right: 70%;
+    }
+}
+
+
 main {
     display: flex;
     flex-direction: column;
