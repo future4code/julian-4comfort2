@@ -1,5 +1,5 @@
 /* 
-  Estrurura do header
+  Estrurura do header Desktop
 */
 
 @keyframes pular{
@@ -52,4 +52,21 @@ header a:hover{
     animation: pular 1s;
 }
 
+/*
+  Estrutura navegação interna mobile
+*/
+
+@media (max-width:375px){
+    
+    header{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+
+    img{
+        position: fixed;
+        right: 70%;
+    }
+}
 
