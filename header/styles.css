@@ -1,0 +1,72 @@
+/* 
+  Estrurura do header Desktop
+*/
+
+@keyframes pular{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    40%{
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-20px);
+    }
+
+    80%{
+        -webkit-transform: translateY(-18px);
+        transform: translateY(-10px);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Baloo 2', cursive;
+    background-color: #dae5e8;
+}
+
+header a{
+    position: relative;
+    right: 7%;
+    bottom: 2%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #2e3237;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+header a:hover{
+    animation: pular 1s;
+}
+
+/*
+  Estrutura navegação interna mobile
+*/
+
+@media (max-width:375px){
+    
+    header{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+
+    img{
+        position: fixed;
+        right: 70%;
+    }
+}
+
