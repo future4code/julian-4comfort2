@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/75dc2f1f5d.js" crossorigin="anonymous"></script>
+        <title>4Comfort2</title>
+    </head>
+    <body>
+            <header> <!--Inicio do Header-->
+                <img id="imagem-logo" src="imagens/4comfort.png" alt="imagem-de-logo"> <!-- imagem de logo Header-->
+                
+                <!--navegação interna da landing page-->
+                    <a href="#quem-somos">Quem somos</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#contato">Contato</a>
+                    <a href="#nosso-time">Nosso Time</a>
+                    <a href="#promocao">Promoções</a>
+                <!--// Final Navegação Interna-->
+            
+            </header> <!--// Final do Header-->
+        
+
+        <main role="main"> 
+            <section id="quem-somos">
+                <img src="imagens/4comfort.png" alt="">
+                <div >
+                    <h1>Quem somos</h1>
+                    <p>4Comfort é uma nova empresa cuja proposta é oferecer o tênis mais confortável possível. Seguindo modelos americanos como Allbirds e Atom, o tênis é voltado para um público que trabalha em ambientes casuais </p>
+                </div>
+            </section>
+            <section class="fundo" id="claro">    
+                
+            </section>
+            <section id="produtos">
+                <h1>Produtos</h1>
+                <div class="mosaico-produtos" >
+                    <div class="imagemproduto">
+                        <img id="produto1" src="imagens/produto1.jpg">
+                    </div>
+                    <div class="imagemproduto">
+                        <img id="produto1" src="imagens/produto3.jpg">
+                    </div>
+                    <div class="imagemproduto">
+                        <img id="produto1" src="imagens/produto6.jpg">
+                    </div>
+                    <div class="imagemproduto">
+                        <img id="produto1" src="imagens/neemans.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="contato" name >
+                <h1>contato</h1>
+                <form name="formcontato" action="" id="form-contato" >
+                    <div class="nomec">
+                        <p >NOME</p>
+                        <input type="text" id="nomec" name="nomec" required="required" >
+                    </div>
+                    <div class="emailc">
+                        <p >EMAIL</p>
+                        <input type="email" id="emailc" name="emailc" required="required">
+                    </div>
+                    <div class="mensagemc">
+                        <p >MENSAGEM</p>
+                        <textarea name="mensagemc" id="mensagemc" required="required"></textarea>
+                    </div> 
+                    <div class="enviar">
+                        <input  type="submit" name="enviar" id="enviarc" value="ENVIAR">
+                    </div>
+                </form>
+            </section>
+            <section id="nosso-time">
+                <h1>Nosso time</h1>
+                <div class="felipe">
+                    <img src="imagens/felipe.jpg" alt="">
+                    <div class="apresentacao">
+                        <h2>Felipe</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim accumsan mollis. Fusce id ultricies libero. Maecenas laoreet metus nunc, sit amet egestas est tincidunt at. Vestibulum feugiat pulvinar sollicitudin. Nam auctor tristique augue, vitae blandit neque aliquam nec. Sed placerat lobortis libero, scelerisque congue magna. Phasellus mollis aliquet massa, ut maximus nunc dictum sed.</p>
+                    </div>
+                </div>
+                <div class="murilo">
+                    <div class="apresentacao">
+                        <h2>Murilo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim accumsan mollis. Fusce id ultricies libero. Maecenas laoreet metus nunc, sit amet egestas est tincidunt at. Vestibulum feugiat pulvinar sollicitudin. Nam auctor tristique augue, vitae blandit neque aliquam nec. Sed placerat lobortis libero, scelerisque congue magna. Phasellus mollis aliquet massa, ut maximus nunc dictum sed.</p>
+                    </div>
+                    <img src="imagens/murilo.jpg" alt="">
+                </div>
+                <div class="ricardo">
+                    <img src="imagens/ricardo.jpg" alt="">
+                    <div class="apresentacao">
+                        <h2>Ricardo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim accumsan mollis. Fusce id ultricies libero. Maecenas laoreet metus nunc, sit amet egestas est tincidunt at. Vestibulum feugiat pulvinar sollicitudin. Nam auctor tristique augue, vitae blandit neque aliquam nec. Sed placerat lobortis libero, scelerisque congue magna. Phasellus mollis aliquet massa, ut maximus nunc dictum sed.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="fundo" id="escuro">
+
+            </section>
+            <section id="promocao">
+                <p>Para atualizações e promoções, deixe seu e-mail</p>
+                <input type="text">
+                <button class="botao">ENVIAR</button>
+            </section>
+         </main>
+         <footer>
+            <section id="social-media">
+                <a target="_blank" href="http://www.twitter.com">
+                    <i class="fab fa-twitter"></i>
+                    @4Comfort2
+                </a>
+                <a target="_blank" href="http://www.instagram.com">
+                    <i class="fab fa-instagram"></i>
+                    @Comfort2
+                </a>
+                <a target="_blank" href="http://www.orkut.com">
+                    <i class="fab fa-facebook"></i>
+                    4Comfort2
+                </a>
+            </section>
+            <section id="cartoes">
+                <p>Cartões aceitos:</p>
+                <i class="fab fa-cc-mastercard fa-2x"></i>
+                <i class="fab fa-cc-visa fa-2x"></i>
+                <i class="fab fa-cc-paypal fa-2x"></i>
+                <i class="fab fa-cc-discover fa-2x"></i>
+                <i class="fab fa-cc-diners-club fa-2x"></i>
+                <i class="fab fa-cc-apple-pay fa-2x"></i>
+                <i class="fab fa-cc-amex fa-2x"></i>
+            </section>
+            <p>Copyright © todos os direitos reservados, ao persistirem os sintomas procure um médico</p>
+        </footer> 
+    </body>
+</html>
